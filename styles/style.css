@@ -77,7 +77,7 @@
     background-size: cover;
     background-position: center;
     max-width: 1100px;
-    max-height: 757px;
+    min-height: 757px;
     padding: 168px 50px 50px;
     color: #fff;
 }
@@ -241,13 +241,10 @@
 }
 
 .about__column_left {
-    position: relative;
-    
+    padding-left: 47px;     
 }
 
 .about__logo {
-    position: absolute;
-    left: 47px;
     width: 240px;
     height: 240px;
     background-color: #000;
